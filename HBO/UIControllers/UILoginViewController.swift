@@ -12,6 +12,7 @@ class UILoginViewController: UIViewController {
 
     @IBOutlet weak var txtEmail: UITextField!
     @IBOutlet weak var txtPass: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addSylesToLogin()
@@ -25,5 +26,20 @@ class UILoginViewController: UIViewController {
         txtPass.placeholderColor(color: UIColor.white)
     }
     
-
+    @IBAction func btnLogin(_ sender: Any) {
+       let validator = ValidateFields()
+        if(validator.usernameValid(username: (txtEmail.text ?? "")) && validator.passwordValid(password: txtPass.text ?? "")){
+            let alert = AlertDialog();
+            
+            alert.showAlert(title: "Logged In", message: "You have been successfully logged in", buttonText: "Dashboard")
+            
+        }else{
+            let alert = AlertDialog();
+            
+            alert.showAlert(title: "Error", message: "Username or password is invalid", buttonText: "Register")
+        }
+        
+    
+    
+}
 }

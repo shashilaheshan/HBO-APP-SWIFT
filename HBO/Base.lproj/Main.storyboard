@@ -300,6 +300,9 @@ and conditions of HBO.</string>
                                         <real key="value" value="4"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnLogin:" destination="Mvt-ws-kwq" eventType="touchUpInside" id="9nT-c4-TYR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4y-30-Kfi" customClass="btnCustom" customModule="HBO" customModuleProvider="target">
                                 <rect key="frame" x="40" y="410" width="334" height="50"/>

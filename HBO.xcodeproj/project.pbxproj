@@ -18,6 +18,8 @@
 		0F2296AB23C3A2D400A51BBB /* UILoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296AA23C3A2D400A51BBB /* UILoginViewController.swift */; };
 		0F2296AE23C3A35A00A51BBB /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296AD23C3A35A00A51BBB /* UITextFieldExtension.swift */; };
 		0F2296B123C3AD7E00A51BBB /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296B023C3AD7E00A51BBB /* CheckBoxButton.swift */; };
+		0F4F43BA23CD7B1A0074AC82 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F43B923CD7B1A0074AC82 /* Validator.swift */; };
+		0F4F43BC23CD7E420074AC82 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F43BB23CD7E420074AC82 /* AlertDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		0F2296AA23C3A2D400A51BBB /* UILoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoginViewController.swift; sourceTree = "<group>"; };
 		0F2296AD23C3A35A00A51BBB /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		0F2296B023C3AD7E00A51BBB /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		0F4F43B923CD7B1A0074AC82 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		0F4F43BB23CD7E420074AC82 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		0F22967823C3764B00A51BBB /* HBO */ = {
 			isa = PBXGroup;
 			children = (
+				0F4F43B823CD7B050074AC82 /* Helpers */,
 				0F2296AF23C3A66800A51BBB /* UICustomStyles */,
 				0F2296AC23C3A33E00A51BBB /* UIExtensions */,
 				0F2296A923C3A2A400A51BBB /* UIControllers */,
@@ -159,6 +164,15 @@
 				0F2296B023C3AD7E00A51BBB /* CheckBoxButton.swift */,
 			);
 			path = UICustomStyles;
+			sourceTree = "<group>";
+		};
+		0F4F43B823CD7B050074AC82 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0F4F43B923CD7B1A0074AC82 /* Validator.swift */,
+				0F4F43BB23CD7E420074AC82 /* AlertDialog.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,8 @@
 				0F2296AB23C3A2D400A51BBB /* UILoginViewController.swift in Sources */,
 				0F22967C23C3764B00A51BBB /* UIRegisterViewController.swift in Sources */,
 				0F22967A23C3764B00A51BBB /* AppDelegate.swift in Sources */,
+				0F4F43BC23CD7E420074AC82 /* AlertDialog.swift in Sources */,
+				0F4F43BA23CD7B1A0074AC82 /* Validator.swift in Sources */,
 				0F2296B123C3AD7E00A51BBB /* CheckBoxButton.swift in Sources */,
 				0F2296A823C381AC00A51BBB /* btnCustom.swift in Sources */,
 			);
