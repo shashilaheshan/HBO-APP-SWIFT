@@ -486,24 +486,51 @@ and conditions of HBO.</string>
                                     <action selector="btnLogout:" destination="qXv-hV-GuA" eventType="touchUpInside" id="8XG-K9-ZnA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIq-pN-rh8">
+                                <rect key="frame" x="30" y="655" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="knM-Kd-rqY"/>
+                                </constraints>
+                                <state key="normal" title="TOUCH ID"/>
+                                <connections>
+                                    <action selector="btnTouchID:" destination="qXv-hV-GuA" eventType="touchUpInside" id="vfu-Ef-L41"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyC-K4-2TS">
+                                <rect key="frame" x="30" y="725" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="W9z-0o-tdN"/>
+                                </constraints>
+                                <state key="normal" title="FACE ID"/>
+                                <connections>
+                                    <action selector="btnFaceID:" destination="qXv-hV-GuA" eventType="touchUpInside" id="IEo-WK-vzp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="7NS-vt-Gts" secondAttribute="trailing" constant="50" id="0fJ-EV-Ft5"/>
+                            <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="xyC-K4-2TS" secondAttribute="trailing" constant="30" id="3RW-mx-h1q"/>
                             <constraint firstItem="SXs-Fm-paP" firstAttribute="centerX" secondItem="9SH-AR-IFc" secondAttribute="centerX" id="4wq-ts-0ba"/>
+                            <constraint firstItem="RIq-pN-rh8" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="30" id="5KF-8l-Iqd"/>
+                            <constraint firstItem="RIq-pN-rh8" firstAttribute="centerX" secondItem="9SH-AR-IFc" secondAttribute="centerX" id="6YK-i0-22n"/>
                             <constraint firstItem="HkM-Ry-hSu" firstAttribute="centerX" secondItem="9SH-AR-IFc" secondAttribute="centerX" id="8AU-qF-BJL"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="9mD-z0-9an" secondAttribute="trailing" constant="50" id="8Wg-kk-dNh"/>
                             <constraint firstItem="jOw-x7-gGl" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="Fre-oE-6xu"/>
+                            <constraint firstItem="xyC-K4-2TS" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="30" id="GKJ-zn-GaT"/>
                             <constraint firstItem="HkM-Ry-hSu" firstAttribute="top" secondItem="7NS-vt-Gts" secondAttribute="bottom" constant="50" id="GrE-Da-xZC"/>
                             <constraint firstItem="9mD-z0-9an" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="Hgc-jj-uEe"/>
                             <constraint firstItem="7NS-vt-Gts" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="Hgp-GZ-hyY"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="jOw-x7-gGl" secondAttribute="trailing" constant="50" id="KNC-2B-hoZ"/>
+                            <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="RIq-pN-rh8" secondAttribute="trailing" constant="30" id="KUG-fy-Iyh"/>
                             <constraint firstItem="SXs-Fm-paP" firstAttribute="top" secondItem="jOw-x7-gGl" secondAttribute="bottom" constant="145" id="NkV-o5-Ig2"/>
                             <constraint firstItem="9mD-z0-9an" firstAttribute="top" secondItem="HkM-Ry-hSu" secondAttribute="bottom" constant="28" id="PkH-mG-wCz"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="SXs-Fm-paP" secondAttribute="trailing" constant="50" id="Pp6-g8-nNz"/>
+                            <constraint firstItem="RIq-pN-rh8" firstAttribute="top" secondItem="SXs-Fm-paP" secondAttribute="bottom" constant="40" id="Ttg-f8-dr7"/>
                             <constraint firstItem="HkM-Ry-hSu" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="TuR-Iz-bpP"/>
                             <constraint firstItem="SXs-Fm-paP" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="Uj1-vP-zQf"/>
                             <constraint firstItem="7NS-vt-Gts" firstAttribute="top" secondItem="IBb-5W-xTj" secondAttribute="top" constant="50" id="WVd-fG-JUW"/>
+                            <constraint firstItem="xyC-K4-2TS" firstAttribute="top" secondItem="RIq-pN-rh8" secondAttribute="bottom" constant="20" id="WeA-6h-46Q"/>
                             <constraint firstItem="OqI-PH-5EG" firstAttribute="top" secondItem="IBb-5W-xTj" secondAttribute="top" constant="17" id="d4s-II-3NO"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="OqI-PH-5EG" secondAttribute="trailing" constant="20" id="fv4-bk-fS8"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="SXs-Fm-paP" secondAttribute="trailing" constant="50" id="h2k-9S-Jm7"/>
@@ -511,6 +538,7 @@ and conditions of HBO.</string>
                             <constraint firstItem="jOw-x7-gGl" firstAttribute="top" secondItem="9mD-z0-9an" secondAttribute="bottom" constant="24" id="lc2-ZX-v3i"/>
                             <constraint firstItem="IBb-5W-xTj" firstAttribute="trailing" secondItem="HkM-Ry-hSu" secondAttribute="trailing" constant="50" id="ncj-fs-mTK"/>
                             <constraint firstItem="SXs-Fm-paP" firstAttribute="leading" secondItem="IBb-5W-xTj" secondAttribute="leading" constant="50" id="tmP-jQ-BoA"/>
+                            <constraint firstItem="xyC-K4-2TS" firstAttribute="centerX" secondItem="9SH-AR-IFc" secondAttribute="centerX" id="wdc-nV-3W2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IBb-5W-xTj"/>
                     </view>

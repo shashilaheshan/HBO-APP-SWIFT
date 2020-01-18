@@ -38,6 +38,8 @@
 	</array>
 	<key>FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED</key>
 	<false/>
+	<key>NSFaceIDUsageDescription</key>
+	<string>To access user profile related information you must authenticate</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
