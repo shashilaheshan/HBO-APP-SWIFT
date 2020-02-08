@@ -176,7 +176,7 @@ class DashboardViewController: UIViewController {
     
     func addCustomStylesToView() {
         
-        self.navigationController?.navigationBar.isHidden = true
+      //  self.navigationController?.navigationBar.isHidden = true
         
         txtMovieName.setLeftPaddingPoints(8)
         

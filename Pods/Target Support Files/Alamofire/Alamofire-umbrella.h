@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_HBOUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_HBOUITestsVersionString[];
+FOUNDATION_EXPORT double AlamofireVersionNumber;
+FOUNDATION_EXPORT const unsigned char AlamofireVersionString[];
 

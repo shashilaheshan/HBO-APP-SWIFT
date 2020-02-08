@@ -158,6 +158,7 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - Alamofire (5.0.0-rc.3)
   - BoringSSL-GRPC (0.0.3):
     - BoringSSL-GRPC/Implementation (= 0.0.3)
     - BoringSSL-GRPC/Interface (= 0.0.3)
@@ -271,15 +272,21 @@ PODS:
     - nanopb/encode (= 0.3.9011)
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
+  - SwiftyJSON (4.3.0)
+  - YoutubePlayer-in-WKWebView (0.2.5)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Firestore
+  - SwiftyJSON (~> 4.0)
+  - YoutubePlayer-in-WKWebView (~> 0.2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - abseil
+    - Alamofire
     - BoringSSL-GRPC
     - Firebase
     - FirebaseAnalytics
@@ -299,9 +306,12 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - SwiftyJSON
+    - YoutubePlayer-in-WKWebView
 
 SPEC CHECKSUMS:
   abseil: 18063d773f5366ff8736a050fe035a28f635fd27
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
   Firebase: 458d109512200d1aca2e1b9b6cf7d68a869a4a46
   FirebaseAnalytics: 45f36d9c429fc91d206283900ab75390cd05ee8a
@@ -321,7 +331,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  YoutubePlayer-in-WKWebView: 4dad12b3ece938a6456fa4374df78942f88b485a
 
-PODFILE CHECKSUM: 6632aead83ccbc036a36df110d9cdd633cb3db39
+PODFILE CHECKSUM: b6ee6d79fbf2fb6c93c4c3291c282000a904dece
 
 COCOAPODS: 1.6.1

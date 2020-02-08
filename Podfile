@@ -9,13 +9,16 @@ target 'HBO' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod "YoutubePlayer-in-WKWebView", "~> 0.2.0"
+  pod 'Alamofire', '~> 5.0.0-rc.3'
+  pod 'SwiftyJSON', '~> 4.0'
   target 'HBOTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
   target 'HBOUITests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
 

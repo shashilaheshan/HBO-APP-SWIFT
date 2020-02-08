@@ -17,14 +17,17 @@ class UILoginViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
         self.addSylesToLogin()
     }
     func addSylesToLogin() {
+       
         
         txtEmail.roundCorners([.topLeft,.topRight], radius: 10)
+         //txtEmail.roundCorners(.topRight, radius: 10)
         
         txtPass.roundCorners([.bottomLeft,.bottomRight], radius: 10)
+        
+        
         
         txtEmail.setLeftPaddingPoints(8)
         

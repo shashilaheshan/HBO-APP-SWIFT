@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1EF88B23EE6FAC0016B9C6 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1EF88A23EE6FAC0016B9C6 /* Util.swift */; };
 		0F22967A23C3764B00A51BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22967923C3764B00A51BBB /* AppDelegate.swift */; };
 		0F22967C23C3764B00A51BBB /* UIRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22967B23C3764B00A51BBB /* UIRegisterViewController.swift */; };
 		0F22967F23C3764B00A51BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F22967D23C3764B00A51BBB /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 		0F2296AB23C3A2D400A51BBB /* UILoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296AA23C3A2D400A51BBB /* UILoginViewController.swift */; };
 		0F2296AE23C3A35A00A51BBB /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296AD23C3A35A00A51BBB /* UITextFieldExtension.swift */; };
 		0F2296B123C3AD7E00A51BBB /* CheckBoxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2296B023C3AD7E00A51BBB /* CheckBoxButton.swift */; };
+		0F40645C23D2CAFB00AB688E /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F40645B23D2CAFB00AB688E /* MovieViewController.swift */; };
+		0F40645E23D2D09100AB688E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F40645D23D2D09100AB688E /* TableViewController.swift */; };
 		0F4F43BA23CD7B1A0074AC82 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F43B923CD7B1A0074AC82 /* Validator.swift */; };
 		0F4F43BC23CD7E420074AC82 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F43BB23CD7E420074AC82 /* AlertDialog.swift */; };
 		0F6DEA5A23D091910084F988 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F6DEA5923D091900084F988 /* GoogleService-Info.plist */; };
@@ -25,7 +28,9 @@
 		0F6DEA5E23D16FFA0084F988 /* StarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6DEA5D23D16FFA0084F988 /* StarterViewController.swift */; };
 		0F6DEA6023D18ADF0084F988 /* ActivityIndicatorCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6DEA5F23D18ADF0084F988 /* ActivityIndicatorCustom.swift */; };
 		0F6DEA6223D18CCD0084F988 /* IndicatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6DEA6123D18CCD0084F988 /* IndicatorButton.swift */; };
+		0FEEE7A423EE76A500208CF4 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEEE7A323EE76A500208CF4 /* MovieModel.swift */; };
 		154FF86A270CC492E0A67CD6 /* Pods_HBOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0C2F831DC7D6179C35308D /* Pods_HBOTests.framework */; };
+		2F70A07912E65F6D9F097684 /* Pods_HBO_HBOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCD9CA94EEBF0BFEA7C10A1 /* Pods_HBO_HBOUITests.framework */; };
 		4BE7E6C509880842B69FEA11 /* Pods_HBOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB9B9022C5220B85359FC4 /* Pods_HBOUITests.framework */; };
 		C5B8A31182CA22B5F144BF3C /* Pods_HBO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981DB8011E54F413A218C948 /* Pods_HBO.framework */; };
 /* End PBXBuildFile section */
@@ -50,6 +55,7 @@
 /* Begin PBXFileReference section */
 		06BE52E8C3C822D039D5A880 /* Pods-HBOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOUITests.debug.xcconfig"; path = "Target Support Files/Pods-HBOUITests/Pods-HBOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		07776787BF5642CBE56A60E7 /* Pods-HBO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.release.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.release.xcconfig"; sourceTree = "<group>"; };
+		0F1EF88A23EE6FAC0016B9C6 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		0F22967623C3764B00A51BBB /* HBO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F22967923C3764B00A51BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F22967B23C3764B00A51BBB /* UIRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRegisterViewController.swift; sourceTree = "<group>"; };
@@ -67,20 +73,26 @@
 		0F2296AA23C3A2D400A51BBB /* UILoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoginViewController.swift; sourceTree = "<group>"; };
 		0F2296AD23C3A35A00A51BBB /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		0F2296B023C3AD7E00A51BBB /* CheckBoxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxButton.swift; sourceTree = "<group>"; };
+		0F40645B23D2CAFB00AB688E /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		0F40645D23D2D09100AB688E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0F4F43B923CD7B1A0074AC82 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		0F4F43BB23CD7E420074AC82 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
-		0F6DEA5923D091900084F988 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F6DEA5923D091900084F988 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "HBO/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0F6DEA5B23D0A5650084F988 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		0F6DEA5D23D16FFA0084F988 /* StarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterViewController.swift; sourceTree = "<group>"; };
 		0F6DEA5F23D18ADF0084F988 /* ActivityIndicatorCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorCustom.swift; sourceTree = "<group>"; };
 		0F6DEA6123D18CCD0084F988 /* IndicatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorButton.swift; sourceTree = "<group>"; };
+		0FEEE7A323EE76A500208CF4 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		3723E00049F736B9F26271F3 /* Pods-HBOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.release.xcconfig"; path = "Target Support Files/Pods-HBOTests/Pods-HBOTests.release.xcconfig"; sourceTree = "<group>"; };
 		3B0C2F831DC7D6179C35308D /* Pods_HBOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		494789B12D24D32CD7E962BB /* Pods-HBO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO.debug.xcconfig"; path = "Target Support Files/Pods-HBO/Pods-HBO.debug.xcconfig"; sourceTree = "<group>"; };
 		79D72C1CBEB08F84FF58A3BE /* Pods-HBOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOTests.debug.xcconfig"; path = "Target Support Files/Pods-HBOTests/Pods-HBOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C6BEF34D47C4A315CB9BF0C /* Pods-HBO-HBOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO-HBOUITests.debug.xcconfig"; path = "Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		85ADB6AD383E011199EA3251 /* Pods-HBOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBOUITests.release.xcconfig"; path = "Target Support Files/Pods-HBOUITests/Pods-HBOUITests.release.xcconfig"; sourceTree = "<group>"; };
 		981DB8011E54F413A218C948 /* Pods_HBO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCD9CA94EEBF0BFEA7C10A1 /* Pods_HBO_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBO_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DB9B9022C5220B85359FC4 /* Pods_HBOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F095B820310F7746061F2624 /* Pods-HBO-HBOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBO-HBOUITests.release.xcconfig"; path = "Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,12 +117,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BE7E6C509880842B69FEA11 /* Pods_HBOUITests.framework in Frameworks */,
+				2F70A07912E65F6D9F097684 /* Pods_HBO_HBOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1EF88923EE6FA10016B9C6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0F1EF88A23EE6FAC0016B9C6 /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		0F22966D23C3764B00A51BBB = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +157,8 @@
 		0F22967823C3764B00A51BBB /* HBO */ = {
 			isa = PBXGroup;
 			children = (
+				0FEEE7A223EE769600208CF4 /* Models */,
+				0F1EF88923EE6FA10016B9C6 /* Util */,
 				0F6DEA5923D091900084F988 /* GoogleService-Info.plist */,
 				0F4F43B823CD7B050074AC82 /* Helpers */,
 				0F2296AF23C3A66800A51BBB /* UICustomStyles */,
@@ -175,6 +198,8 @@
 				0F2296AA23C3A2D400A51BBB /* UILoginViewController.swift */,
 				0F6DEA5B23D0A5650084F988 /* DashboardViewController.swift */,
 				0F6DEA5D23D16FFA0084F988 /* StarterViewController.swift */,
+				0F40645B23D2CAFB00AB688E /* MovieViewController.swift */,
+				0F40645D23D2D09100AB688E /* TableViewController.swift */,
 			);
 			path = UIControllers;
 			sourceTree = "<group>";
@@ -207,6 +232,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		0FEEE7A223EE769600208CF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FEEE7A323EE76A500208CF4 /* MovieModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		36CEF4A7EDB1ECF7B4E524DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +249,8 @@
 				3723E00049F736B9F26271F3 /* Pods-HBOTests.release.xcconfig */,
 				06BE52E8C3C822D039D5A880 /* Pods-HBOUITests.debug.xcconfig */,
 				85ADB6AD383E011199EA3251 /* Pods-HBOUITests.release.xcconfig */,
+				7C6BEF34D47C4A315CB9BF0C /* Pods-HBO-HBOUITests.debug.xcconfig */,
+				F095B820310F7746061F2624 /* Pods-HBO-HBOUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -226,6 +261,7 @@
 				981DB8011E54F413A218C948 /* Pods_HBO.framework */,
 				3B0C2F831DC7D6179C35308D /* Pods_HBOTests.framework */,
 				B1DB9B9022C5220B85359FC4 /* Pods_HBOUITests.framework */,
+				9BCD9CA94EEBF0BFEA7C10A1 /* Pods_HBO_HBOUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,6 +315,7 @@
 				0F22969123C3764C00A51BBB /* Sources */,
 				0F22969223C3764C00A51BBB /* Frameworks */,
 				0F22969323C3764C00A51BBB /* Resources */,
+				C1FDBA93696177C862F07C5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -393,9 +430,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HBO/Pods-HBO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
 				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
@@ -406,9 +446,12 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
@@ -418,6 +461,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO/Pods-HBO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1FDBA93696177C862F07C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBO-HBOUITests/Pods-HBO-HBOUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DCFC5D1508B2E8CAEA1A5FEF /* [CP] Check Pods Manifest.lock */ = {
@@ -435,7 +520,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HBOUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HBO-HBOUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,15 +556,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F40645C23D2CAFB00AB688E /* MovieViewController.swift in Sources */,
+				0F40645E23D2D09100AB688E /* TableViewController.swift in Sources */,
 				0F2296AE23C3A35A00A51BBB /* UITextFieldExtension.swift in Sources */,
 				0F6DEA5C23D0A5650084F988 /* DashboardViewController.swift in Sources */,
 				0F2296AB23C3A2D400A51BBB /* UILoginViewController.swift in Sources */,
 				0F22967C23C3764B00A51BBB /* UIRegisterViewController.swift in Sources */,
 				0F22967A23C3764B00A51BBB /* AppDelegate.swift in Sources */,
+				0F1EF88B23EE6FAC0016B9C6 /* Util.swift in Sources */,
 				0F6DEA6223D18CCD0084F988 /* IndicatorButton.swift in Sources */,
 				0F4F43BC23CD7E420074AC82 /* AlertDialog.swift in Sources */,
 				0F4F43BA23CD7B1A0074AC82 /* Validator.swift in Sources */,
 				0F2296B123C3AD7E00A51BBB /* CheckBoxButton.swift in Sources */,
+				0FEEE7A423EE76A500208CF4 /* MovieModel.swift in Sources */,
 				0F6DEA5E23D16FFA0084F988 /* StarterViewController.swift in Sources */,
 				0F2296A823C381AC00A51BBB /* btnCustom.swift in Sources */,
 				0F6DEA6023D18ADF0084F988 /* ActivityIndicatorCustom.swift in Sources */,
@@ -588,7 +677,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -643,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -658,16 +747,20 @@
 			baseConfigurationReference = 494789B12D24D32CD7E962BB /* Pods-HBO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2AF9T859;
 				INFOPLIST_FILE = HBO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = coventry.HBO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -676,16 +769,20 @@
 			baseConfigurationReference = 07776787BF5642CBE56A60E7 /* Pods-HBO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG2AF9T859;
 				INFOPLIST_FILE = HBO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = coventry.HBO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -733,7 +830,7 @@
 		};
 		0F2296A523C3764C00A51BBB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06BE52E8C3C822D039D5A880 /* Pods-HBOUITests.debug.xcconfig */;
+			baseConfigurationReference = 7C6BEF34D47C4A315CB9BF0C /* Pods-HBO-HBOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -753,7 +850,7 @@
 		};
 		0F2296A623C3764C00A51BBB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85ADB6AD383E011199EA3251 /* Pods-HBOUITests.release.xcconfig */;
+			baseConfigurationReference = F095B820310F7746061F2624 /* Pods-HBO-HBOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
